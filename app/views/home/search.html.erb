@@ -1,0 +1,5 @@
+<% @movies.each do |result| %>
+  <a href="<%= result["posterUrl"] %>" class="flex">
+    <div class="text-lg text-bold flex-grow hover:bg-blue-100 m-3"><%= result["title"] %></div>
+  </div>
+<% end %>
